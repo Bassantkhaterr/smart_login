@@ -1,0 +1,58 @@
+.container-fluid{
+    background-color: #24353f;
+    height: 100vh;
+}
+#form-login{
+    margin: auto;
+    width: 50%;
+    height:80%;
+    text-align: center;
+    margin-top: 5%;
+    padding: 48px;
+    box-shadow: -5px 2px 54px -9px rgba(0, 0, 0, 1);
+}
+#form-login h1{
+  color: #17a2b8;
+  font-family:sans-serif;
+}
+#name{
+    border-radius: 0.25rem; 
+    background-color: #24353f;
+    color: white;
+    border:solid 1px #ced4da;
+} 
+#email{
+    border-radius: 0.25rem; 
+    background-color: #24353f;
+    color: white;
+    border:solid 1px #ced4da;
+}
+#password{
+    border-radius: 0.25rem; 
+    background-color: #24353f;
+    color: white;
+    border:solid 1px #ced4da;
+}
+#sign{
+    background-color: #24353f;
+    margin-top: 5%;
+    padding: 1% 45%;
+    border: #17a2b8 solid 1px;
+    color: #17a2b8;
+    border-radius: 0.25rem;
+    transition: 0.4s;
+}
+#sign:hover{
+    background-color: #17a2b8;
+    color: white;
+    transition-duration: 0.4s;
+}
+#Sign{
+    text-decoration: none;
+    color: white;
+    transition: 0.4s;
+}
+#Sign:hover{
+    border-bottom: 1px white solid;
+    transition-duration: 0.4s;
+}

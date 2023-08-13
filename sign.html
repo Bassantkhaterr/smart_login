@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet'>
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="sign.css">
+</head>
+<body>
+    
+<div class="container-fluid" id="page-one">
+<div class="row">
+
+<div class="col-md-12">
+  <div id="form-login" >
+    <h1>Smart Login System</h1>
+    <input type="text" placeholder="Enter your name"  class="w-100 p-2 mt-3" required id="name">
+    <input type="email" placeholder="Enter your email"  class="w-100 p-2 mt-3" required id="email">
+    <input type="password" placeholder="Enter password"  class="w-100 p-2 mt-3" required id="password">
+    <p id="error-message"  style="color: red;" class="d-none mt-2">All inputs is required</p>
+    <p id="correct_message"  style="color: green;" class="d-none mt-2">Success</p>
+
+    <button id="sign" onclick="signUp()" >SignUp</button>
+    <p style="color: white; margin-top: 2%;">You have an account? <a href="file:///E:/javascrirt/assi4/index.html#page-one" id="Sign">Signin</a></p>
+  </div>
+</div>
+</div>
+</div>
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>
